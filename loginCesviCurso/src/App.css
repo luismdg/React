@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html, body {
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 400;
+  overflow-y: scroll;
+  align-items: start;
+  justify-content: start;
+  width: 100%;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* === MAIN LOGIN === */
+/*  ---  Header  ---  */
+.main-login{
+  width: 100%;
+  background-color: #013462;
+}
+.logo-cont{
+  width: 100%;
+}
+.logo{
+  width: 75px;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 25px rgb(255, 255, 255));
+}
+
+
+/*  ---  Header  ---  */
